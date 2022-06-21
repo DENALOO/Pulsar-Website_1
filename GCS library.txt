@@ -1,0 +1,93 @@
+    /*navbar */
+    
+    <nav>
+        <ul id="nav-bar-list">
+            <li><a href="#Contact-section">Contact</a></li>
+            <li><a href="#Services-section">Services</a></li>
+            <li><a href="#About-section">About</a></li>
+            <li><a class="active" href="#Home-section">Home</a></li>
+        </ul>
+    </nav>
+    
+    
+    -- CSS--
+    
+#nav-bar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(93, 93, 93, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
+
+#nav-bar-list li{
+    float: right;
+}
+
+
+#nav-bar-list  a{
+    display: block;
+    color: #219F94;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-bar-list  a:hover{
+    display: block;
+    border-bottom:#219F94 inset;
+}
+
+.active{
+    background:#B4CFB0;
+    border-bottom:#219F94 inset ;
+}
+
+
+
+
+
+/* about card */
+
+ <div id="about-card">
+    <h1>Grants Cleaning Solutions</h1> Is a cleaning service in your Greater Springfield area and Connecticut.
+    We specialize in Commercial Cleaning And Residential. We Also do bulk removal, move in and move out cleaning, medical offices,banks and etc.
+    We are a Minority owned business and are here to provide you with exceptional service.
+</div>
+
+
+--CSS--
+
+
+#about-card{
+    background: rgb(255, 255, 255, 0.5);
+    height:30%;
+    width:65%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    padding:1rem;
+    line-height:2rem;
+}
+
+#about-card h1{
+    margin-bottom:1rem;
+    color:#18544f;
+}
+    
+
+    /*header crap */
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grants Grants Cleaning Solutions|Home</title>
+    <link rel="stylesheet" href="GrantsCleaningSolutions.css">
+    <script src="GrantsCleaningSolution.js"></script>
+</head>

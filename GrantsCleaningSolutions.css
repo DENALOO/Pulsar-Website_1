@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+section{
+    height:100vh;
+}
+
+nav{
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+}
+
+#contact-info{
+    height:3rem;
+    width:100%;
+    background: #219F94;
+    font-size: large;
+    text-align: right;
+    padding: 14px 16px;
+    color:white;
+}
+
+#contact-info span{
+    transition-duration: 500ms;
+}
+
+#contact-info span:hover{
+    color:darkgray;
+}
+
+#nav-bar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background:rgb(255, 255, 255);
+    position:fixed;
+    width:100%;
+    z-index:1000;
+}
+
+#nav-bar-list li{
+    float: right;
+    height:100%;
+}
+
+
+#nav-bar-list  a{
+    display: block;
+    color: #219F94;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-bar-list  a:hover{
+    display: block;
+    border-bottom:#219F94 inset;
+}
+
+.activeTab{
+    background:#B4CFB0;
+    border-bottom:#219F94 inset ;
+}
+
+
+
+#about-card{
+    background: rgb(255, 255, 255, 0.8);
+    height:40%;
+    width:65%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    padding:1rem;
+    line-height:2rem;
+}
+
+#about-card h1{
+    margin-bottom:1rem;
+    color:#18544f;
+}
+    
+
+#section-two{
+    background:rgb(91, 88, 88);
+}
